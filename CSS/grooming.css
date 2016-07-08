@@ -1,0 +1,162 @@
+
+#container{
+	padding: 10px;
+	display: inline-block;
+}
+.grooming-title{
+	border: 2px solid #cfcfcf;
+	font-size: 3.5em;
+	/*font-family: arial;*/
+	color: #cfcfcf;
+}
+.grooming-content{
+	padding: 10px;
+	margin: 20px;	
+	display: inline-block;
+/*	font-family: arial;*/
+	border-radius: 5px;
+}
+.grooming-block {
+	display: block;
+	float: left;
+	border: 2px solid #cfcfcf;
+	width: 300px;
+	min-height: 380px;
+	margin: 5px;
+	/*font-family: Verdana;*/
+	border-radius: 5px;		
+}
+
+
+.groomingImgTitle{
+	height: 200px;
+}
+/*.groomingImg{
+	max-width: 100%;
+	border-radius: 2px;	
+}*/
+.groomingImgBath{
+	padding: 5px;
+	width: 290px;
+	height: 217px;
+	border-radius: 10px;	
+}
+
+.table-txt-title{
+	font-size: 1.5em;
+	font-weight: bold;
+	color: hsl(0, 0%, 70%);
+	margin: 10px;
+}
+
+.table-txt-content{
+	font-size: 1.1em;
+	color: hsl(0, 0%, 65%);
+	margin:0px 5px 10px 5px;
+}
+
+
+#grooming-title-update{
+border: 2px solid #026;
+font-size: 45px;
+font-family: arial;
+color: #026;
+}
+
+/*#a1{
+	border: 1px solid blue;
+	text-align: center;
+}*/
+
+
+
+#addform{
+	display: inline-block;
+	text-align:left; 
+	font-size: 1.2em;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	line-height: 2em;
+}
+
+#confirmform{
+	display: inline-block;
+	text-align:left; 
+	font-size: 1.2em;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	line-height: 2em;
+}
+
+#FirstName,#LastName,#Address,#City,#State,#Zip,#PhoneNumber,#Email,#PetType,#PetName,#PetAge,#Breed{
+	margin-left: 5px;
+	font-size:0.8em;
+    height: 25px;
+}
+
+
+
+#BackToAdmin{
+	margin-top:30px;
+}
+
+#msg{
+	text-align:center;font-size:36px;font-family:arial;color:hsl(0, 0%, 50%);margin-top:300px;	
+}
+
+#greeting-msg{
+	text-align:center;
+	font-size:36px;
+	font-family:arial;
+	color:hsl(0, 0%, 40%);
+	margin-top:200px;
+	margin-bottom: 60px;	
+}
+
+#insert-msg{
+	text-align:center;
+	font-size:3em;
+	font-family:arial;
+	color:blue;
+	margin-top:20px;
+	margin-bottom: 20px;
+
+}
+
+.link{
+	text-align:center;
+	font-size:20px;
+	font-family:arial;
+	color:hsl(0, 0%, 70%);
+	margin:10px;
+	padding: 10px;
+	border: 2px solid hsl(0, 0%, 70%);
+	text-decoration: none;
+	border-radius: 50px;
+}
+
+#groomingBTN{
+	width:300px;
+	font-size:20px;
+	font-family:arial;
+	margin: 10px;
+	padding: 10px;
+    background-color: white;
+    color: hsl(0, 0%, 70%);
+    border: 2px solid hsl(0, 0%, 70%); 
+    border-radius: 50px;
+}
+
+#groomingBTN:hover,
+.link:hover{
+    color:#026;border-color:#026;cursor:pointer;
+}
+
+a{
+	text-decoration: none;
+}
+
+#btnCenter{
+	text-align: center;
+}
+

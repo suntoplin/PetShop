@@ -1,0 +1,107 @@
+.btn{
+	text-align:center;
+	font-size:20px;
+	font-family:arial;
+	color:hsl(0, 0%, 70%);
+	margin:15px;
+	padding:15px;
+	border: 2px solid hsl(0, 0%, 70%);
+	text-decoration: none;
+	border-radius: 50px;
+	background-color: white;
+	width: 200px;
+}
+
+
+.btn:hover{
+    color:#026;border-color:#026;cursor:pointer;
+}
+
+.btnlogin{
+	text-align: center;
+	width: 300px; 
+}
+
+#test{
+	text-align: left;
+}
+
+#Username,#Password{
+	margin-left: 5px;
+	font-size:0.8em;
+    height: 25px;
+}
+
+#loginform{
+
+	display: inline-block;
+	text-align:left; 
+	font-size: 1.2em;
+	line-height: 2em;
+}
+
+#footeradmin{
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+
+table#Appointment{
+	border-collapse: collapse;
+}
+table#Appointment tr,table#Appointment td{
+	border-bottom: 2px solid hsl(0, 0%, 70%);
+	padding:10px;
+	height:40px;
+}
+
+table#Appointment tr:hover {
+	background-color: #f5f5f5
+}
+
+table#Appointment th {
+    background-color: #4CAF50;
+    color: white;
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 1.2em;
+    padding:4px;
+}
+
+#Appointment-title{
+	text-align: left;
+	font-family: Helvetica;
+	font-size: 20px;
+	margin: 10px;
+}
+
+
+#delmsg{
+	text-align:center;font-size:36px;font-family:Helvetica,arial;color:hsl(0, 0%, 50%);margin-top:200px;	
+}
+.link{
+	text-align:center;
+	font-size:20px;
+	font-family:arial;
+	color:hsl(0, 0%, 70%);
+	margin:10px;
+	padding: 10px;
+	border: 2px solid hsl(0, 0%, 70%);
+	text-decoration: none;
+	border-radius: 50px;
+}
+.link:hover{
+    color:#026;border-color:#026;cursor:pointer;
+}
+
+#delBack{
+	margin: 50px;
+	text-align: center;
+}
+
+#loginFail{
+	text-align:center;font-size:36px;font-family:Helvetica,arial;color:hsl(0, 0%, 50%);margin-top:20px;	
+}
+#loginBack{
+	margin: 30px;
+	text-align: center;
+}
