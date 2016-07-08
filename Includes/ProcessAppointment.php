@@ -201,7 +201,6 @@
 				}
 			}
 			echo "</ol>";
-			//$dbEntries = $_POST;
 			unset ($dbEntries['Submitted']);		
 			foreach ($dbEntries as $key=>$entry)
 			{			
@@ -217,6 +216,5 @@
 	}
 	else{
 		$dbEntries = $_POST;
-		//echo '<div class="grooming-title"> Editing </div>';
 	}
 ?>

@@ -94,27 +94,4 @@ function checkEmail($email)
 	}
 	return true;
 }
-
-
-
-// 	Function Name: checkNumber
-// 	Arguments: $num
-// 	Returns:
-// 		false if $num is not a numeric.
-// 		false if $num less is a negative integer.
-// 		true otherwise
-
-// function checkNumber($num)
-// {	
-// 	if (is_numeric($num) && $num > 0)
-// 	{
-// 		return true;
-// 	}
-// 	if (strlen($num) == 0)
-// 	{
-// 		return true;
-// 	}
-// 	return false;
-// }
-
 ?>

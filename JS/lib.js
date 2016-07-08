@@ -300,7 +300,6 @@ function initialize() {
 	Returns: NONE
 */
 
-
 function ContactUs(){
 	function checkStatus(error){
 		var btnSubmit = document.getElementById('btnSubmit');

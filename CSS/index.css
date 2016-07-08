@@ -16,7 +16,6 @@ body{
 	padding: 5px;
 	text-decoration:none;
 	border-bottom: 2px solid #fff;
-	/*background-color:#fff;*/
 	color:#999;
 }
 #mainmenu a:hover {
@@ -27,9 +26,6 @@ body{
 
 
 /* Footer -- Start*/
-/*footer{
-	clear: left;
-}*/
 #footer-outer{
 	display: inline-block;
 }
@@ -56,13 +52,11 @@ body{
 	width:100%;
 	max-width: 700px;
 	height: auto;
-
 }
 
 /*Index -- END*/
 
 /* About Us ---   Start */
-/*#img*/
 .about-img{
 	width: 200px;
 	height: 200px;
@@ -80,8 +74,6 @@ blockquote {
 	padding: 30px;
 	text-align: center;
 }
-
-/*#txt*/
  .about-title{
 	display: block;
 	font-size: 1.6em;
@@ -89,16 +81,12 @@ blockquote {
 	padding: 20px;
 	text-align: center;
 }
-
 .em{
 	font-size: 2.5em;
 }
-
 /* About Us ---   End */
 
 /*Location-- Start*/
-
-
 #location{
 	text-align: center;
 	display: block;
@@ -106,15 +94,12 @@ blockquote {
 	margin: 20px;
 }
 .location-title{
-	/*margin-top: 10px;*/
 	font-size:1.5em;
 	font-weight: bold;
 }
 .location-content{
-	/*margin-bottom: 20px;*/
 	font-size:1.2em;
 }
-
 #googleMap-outer{
 	text-align: center;
 }
@@ -123,12 +108,10 @@ blockquote {
 	height:480px;
 	display:inline-block;
 }
-
 /*Location-- End*/
 
 
 /*Contact us -- Start*/
-
 #contact-title{
 	font-size:1.6em;margin:30px;font-weight:bold;
 }
@@ -146,15 +129,12 @@ blockquote {
     height: 25px;
     width: 220px;
 }
-
 .contact-content{
 	margin-left: 5px;
 	font-size:0.8em;
     height: 200px;
     width: 220px;
 }
-
-
 #contact{
 	display: inline-block;
 	text-align: left;
@@ -175,49 +155,26 @@ input#btnSubmit{
 	border-radius: 50px;
 	 
 }
-
 input, input:active, input:focus {     
     outline:0;outline-style:none;outline-width:0; 
 }
 #results{
 	text-align:center;
 }
-
 /*Contact us -- END*/
-
 
 #confirming{
 	text-align:center;
 }
-
-
-
-
 #center{
 	text-align: center;
 	border:2px solid grey;
 	display: inline-block;
 }
 
-#checkmark{
-	width: 20px;
-}
+.Error, .Error1, .Error2, .Error3{color: blue;}
 
-
-
-
-
-.Error, .Error1, .Error2, .Error3{
-	color: blue;
-}
-
-#msg{
-	text-align:center;font-size:36px;font-family:arial;color:hsl(0, 0%, 50%);margin-top:300px;	
-}
-
-.checkmark{
-	width: 20px;
-}
+.checkmark{width: 20px;}
 
 
 

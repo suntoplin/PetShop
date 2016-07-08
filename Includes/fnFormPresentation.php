@@ -204,51 +204,11 @@ function selectEntry2($display,$name,$options,$errors,$selected=0)
 }
 
 /*
-	Function Name: selectEntry
+	Function Name: selectEntry3 
 	Arguments: $display,$name,$entries,$errors,$selected?
 	Returns:
 		table rows as string
 */
-// function selectEntry3($display,$name,$options,$errors,$selected=0)
-// {	
-// 	require 'init-state.php';
-// 	$index = array_search($selected, $AbState);
-
-// 	// $temp = (array_key_exists($name,$errors)) ? 'True' : 'False';
-// 	// echo count($errors);
-// 	// echo $index;
-// 	// echo $temp;
-// 	// echo $AbState[$selected];
-// 	$returnVal = "
-// 	<tr>
-// 		<td align='right'>$display:</td>
-// 		<td>
-// 			<select name='$name' id='$name'>
-// 			<option value='0'>Choose one...</option>";
-// 			foreach ($options as $key=>$option)
-// 			{				
-// 				if ($key == $index)
-// 				{
-// 					$returnVal .= "<option value='$key'selected>
-// 									$option</option>";
-// 				}
-// 				else
-// 				{
-// 					$returnVal .= "<option value='$key'>
-// 									$option</option>";
-// 				}
-// 			}
-// 			$returnVal .= "</select>";
-		
-// 		if (array_key_exists($name,$errors))
-// 		{
-// 			$returnVal .= '<span class="Error3" style="white-space:nowrap">*'.$errors[$name] .'</span>';
-// 		}
-
-// 	return $returnVal;
-// }
-
-
 
 function selectEntry3($display,$name,$options,$errors,$selected=0)
 {

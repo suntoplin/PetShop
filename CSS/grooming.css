@@ -6,14 +6,12 @@
 .grooming-title{
 	border: 2px solid #cfcfcf;
 	font-size: 3.5em;
-	/*font-family: arial;*/
 	color: #cfcfcf;
 }
 .grooming-content{
 	padding: 10px;
 	margin: 20px;	
 	display: inline-block;
-/*	font-family: arial;*/
 	border-radius: 5px;
 }
 .grooming-block {
@@ -23,18 +21,13 @@
 	width: 300px;
 	min-height: 380px;
 	margin: 5px;
-	/*font-family: Verdana;*/
 	border-radius: 5px;		
 }
-
 
 .groomingImgTitle{
 	height: 200px;
 }
-/*.groomingImg{
-	max-width: 100%;
-	border-radius: 2px;	
-}*/
+
 .groomingImgBath{
 	padding: 5px;
 	width: 290px;
@@ -59,16 +52,8 @@
 #grooming-title-update{
 border: 2px solid #026;
 font-size: 45px;
-font-family: arial;
 color: #026;
 }
-
-/*#a1{
-	border: 1px solid blue;
-	text-align: center;
-}*/
-
-
 
 #addform{
 	display: inline-block;
@@ -94,20 +79,13 @@ color: #026;
     height: 25px;
 }
 
-
-
 #BackToAdmin{
 	margin-top:30px;
 }
 
-#msg{
-	text-align:center;font-size:36px;font-family:arial;color:hsl(0, 0%, 50%);margin-top:300px;	
-}
-
 #greeting-msg{
 	text-align:center;
-	font-size:36px;
-	font-family:arial;
+	font-size:3em;
 	color:hsl(0, 0%, 40%);
 	margin-top:200px;
 	margin-bottom: 60px;	
@@ -116,7 +94,6 @@ color: #026;
 #insert-msg{
 	text-align:center;
 	font-size:3em;
-	font-family:arial;
 	color:blue;
 	margin-top:20px;
 	margin-bottom: 20px;
@@ -125,8 +102,7 @@ color: #026;
 
 .link{
 	text-align:center;
-	font-size:20px;
-	font-family:arial;
+	font-size:1.5em;
 	color:hsl(0, 0%, 70%);
 	margin:10px;
 	padding: 10px;
@@ -137,8 +113,7 @@ color: #026;
 
 #groomingBTN{
 	width:300px;
-	font-size:20px;
-	font-family:arial;
+	font-size:1.5em;
 	margin: 10px;
 	padding: 10px;
     background-color: white;
@@ -147,14 +122,13 @@ color: #026;
     border-radius: 50px;
 }
 
-#groomingBTN:hover,
-.link:hover{
-    color:#026;border-color:#026;cursor:pointer;
+#groomingBTN:hover, .link:hover{
+    color:#026;
+    border-color:#026;
+    cursor:pointer;
 }
 
-a{
-	text-decoration: none;
-}
+a{text-decoration: none;}
 
 #btnCenter{
 	text-align: center;
